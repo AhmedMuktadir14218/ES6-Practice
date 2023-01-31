@@ -1,9 +1,10 @@
 h1 {
-    animation: color-change 1s infinite;
+    animation: color-change 3s infinite;
   }
   
   @keyframes color-change {
     40% { color: rgb(255, 0, 191); }
     50% { color: blue; }
     100% { color: rgb(0, 255, 0); }
+    50% { color: rgb(200, 255, 0); }
   }
